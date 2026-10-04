@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "icemage",
+  "version": "${version}",
+  "name": "Ice Mage",
+  "description": "Ледяной маг: пассивное замедление и активная заморозка.",
+  "authors": ["you"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["me.example.icemage.IceMage"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
